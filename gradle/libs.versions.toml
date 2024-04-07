@@ -9,9 +9,12 @@ androidx-constraintlayout = "2.1.4"
 androidx-core-ktx = "1.12.0"
 androidx-espresso-core = "3.5.1"
 androidx-material = "1.11.0"
+androidx-material3 = "1.2.0"
 androidx-test-junit = "1.1.5"
-compose = "1.6.2"
-compose-plugin = "1.6.0"
+# compose = "1.6.2"
+compose = "1.6.10-dev1561"
+# compose-plugin = "1.6.0"
+compose-plugin = "1.6.10-dev1561"
 junit = "4.13.2"
 kotlin = "1.9.22"
 
@@ -24,6 +27,7 @@ androidx-test-junit = { group = "androidx.test.ext", name = "junit", version.ref
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "androidx-espresso-core" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "androidx-appcompat" }
 androidx-material = { group = "com.google.android.material", name = "material", version.ref = "androidx-material" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3", version.ref = "androidx-material3" }
 androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "androidx-constraintlayout" }
 androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "androidx-activityCompose" }
 compose-ui-tooling = { module = "androidx.compose.ui:ui-tooling", version.ref = "compose" }
